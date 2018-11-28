@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{}
+
+/* Heading Section Starts*/
+
+header{
+    background: #283E4A;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    overflow: hidden;
+}
+.logo{
+    width: 40%;
+    float: left;
+}
+.logo img{
+    width: 150px;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.signin{
+	width: 60%;
+	float: right;
+	margin: 18px 0;}
+.signin input{
+    padding: 7px;
+    margin-left: 5px;
+}
+.signinbtn{
+	background: #283E4A;color: 
+	white;display: inline-block;
+	border: 1px solid white;
+	border-radius: 3px;}
+.signin a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.signin a:hover{
+	text-decoration: underline;
+}
+
+/* Heading Section Starts */
+
+
+/* signup Section Starts */
+.signup{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.maalpatti{
+    font-weight: 200;
+    background: #F6F8FA;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+.maalpatti h3{
+	font-size: 36px;
+	margin-bottom: 10px;}
+.maalpatti h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.kijani{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.inputsbg{
+    background: #EDF0F3;
+    padding-left: 10px;
+}
+.inputsbg p{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.inputsbg input{}
+.inputsbg a{
+    color: #535556;
+    text-decoration: none;
+}
+.inputsbg a:hover{
+    color: #7a8aff;
+    text-decoration: underline;
+}
+.signupbtn{
+    color: white;
+    background-color: #006097;
+}
+.text{
+    margin: 20px;
+    text-align: center;
+}
+.text p{
+    width: 356px;
+    font-size: 12px;
+    text-align: center;
+}
+.inputsbg ul{
+    padding: 10px;
+}
+.inputsbg ul li{
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.inputsbg ul li p{}
+.inputsbg ul li input{
+	padding: 8px;
+	width: 100%;box-sizing: border-box;
+	border: 1px solid gray;}
+/* signup Section ends */
+
+
+/* footer Section stars */
+footer{background: #434649;}
+.top{
+    color: #b7b7b7;
+    text-align: center;
+}
+.top p{
+    float: left;
+    margin: 10px;
+    color: #b7b7b7;
+    font-weight: 300;
+    margin-right: 10px;
+    float: left;
+    padding: 5px 34px;
+    line-height: 1.3;
+    font-size: 20px;
+    text-align: center;
+}
+.footerul{display: -webkit-inline-box;}
+.footerul li{
+    list-style: none;
+    margin: 0 3px;
+}
+.footerul li input{
+    float: left;
+    padding: 6px 20px;
+    margin: 10px 0;
+}
+.searchbtn{
+    border: 1px solid #b7b7b7;
+    background: #434649;
+    color: white;
+}
+
+
+.member{
+    width: 100%;
+    display: inline-block;
+    line-height: 1.4;
+}
+.member p{
+    color: #b7b7b7;
+    float: left;
+}
+.member ul{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 5px;
+}
+.member ul li{
+    float: left;
+    display: inline-block;
+    line-height: 1.3;
+}
+.member ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #b7b7b7;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+.member ul li a:hover{}
+span{
+    height: 1px;
+    width: 1000px;
+    background: #b7b7b7;
+    display: inline-block;
+}
+.row{
+    width: 100%;
+}
+.col-2{
+    width: 50%;
+    float: left;
+}
+.col-2 p{
+    color: #b7b7b7;
+}
+.col-2 ul{}
+.col-2 ul li{
+    float: left;
+    margin: 0 5px;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 2px;
+}
+.col-2 ul li a{
+    color: #b7b7b7;
+    text-decoration: none;
+}
+.col-2 ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.last{}
+.last img{
+    float: left;
+}
+.last p{
+    float: left;
+    color: #b7b7b7;
+    margin-left: 5px;
+}
+.last ul{}
+.last ul li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+.last ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #b7b7b7;
+    margin: 0 50px;
+}
+.last ul li a:hover{}
+/* footer Section ends */
